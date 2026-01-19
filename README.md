@@ -6,11 +6,37 @@
 - Goal: build strong SQL/database skills for real-world applications
 
 📅 Timeline
-- Day 1–10: Basics
-- Install MySQL
-- Databases, tables, schemas
-- CRUD operations (Create, Read, Update, Delete)
-- 
+-DAY1
+MySQL Create Table [20 exercises with solution]
+CONSTRAINTS
+NOT NULL , CHECK constraint ,ENUM / Values restriction - Question 7 (only Italy, India, China), DEFAULT values ,UNIQUE constraint ,PRIMARY KEY
+
+DATA TYPES
+INT, VARCHAR, DECIMAL, DATE, etc.
+
+TABLE COPY OPERATIONS
+CREATE TABLE LIKE, CREATE TABLE AS SELECT 
+
+FOREIGN KEYS (Referential Integrity)
+FOREIGN KEY constraint 
+
+Different referential actions:
+ON DELETE CASCADE 
+ON UPDATE CASCADE 
+ON DELETE SET NULL
+ON DELETE RESTRICT/NO ACTION
+ON UPDATE RESTRICT 
+
+AUTO INCREMENT
+AUTO_INCREMENT 
+
+ENGINE SPECIFICATION
+ENGINE=InnoDB 
+
+8. COMPOSITE KEYS
+Multiple columns as primary/unique key 
+
+
 - Day 11–20: Intermediate Queries
 - Joins (INNER, LEFT, RIGHT, FULL)
 - Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
