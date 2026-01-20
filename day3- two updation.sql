@@ -1,0 +1,2 @@
+-- 2. Write a SQL statement to change the email and commission_pct column of employees table with 'not available' and 0.10 for all employees.
+UPDATE employees SET EMAIL='not avilable' , COMMISSION_PCT = 0.10;
