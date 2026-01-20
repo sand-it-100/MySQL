@@ -1,0 +1,2 @@
+-- 2. Write a query to get unique department ID from employee table.
+SELECT DISTINCT(EMPLOYEE_ID) FROM employees;
