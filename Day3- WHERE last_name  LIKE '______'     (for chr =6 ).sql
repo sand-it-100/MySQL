@@ -1,0 +1,3 @@
+-- 7. Write a query to display the last name of employees whose names have exactly 6 characters.
+SELECT LAST_NAME FROM employees
+WHERE LAST_NAME LIKE '______'
