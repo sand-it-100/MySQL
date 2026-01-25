@@ -1,0 +1,2 @@
+-- Write a MySQL query to find the difference between the current salary and the previous salary for each employee using a window function.
+SELECT employee_id, salary -LAG(salary,1) OVER(ORDER BY employee_id DESC) AS diff_salary FROM employees

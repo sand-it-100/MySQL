@@ -1,0 +1,2 @@
+-- Write a MySQL query to calculate the 3-month moving average of sales using a window function.
+SELECT month, sales, AVG(sales) OVER(ORDER BY MONTH ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS moning_avg FROM MonthlySales

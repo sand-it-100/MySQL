@@ -1,0 +1,2 @@
+-- Write a MySQL query to calculate the cumulative percentage of total sales for each month using a window function.
+SELECT month , sales , (SUM(sales) OVER(ORDER BY month) / SUM(sales) OVER () ) *100 FROM sales
